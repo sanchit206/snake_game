@@ -1,0 +1,47 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore environment files
+*.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.out
+*.obj
+
+# Ignore test and coverage files
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+coverage.xml
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
